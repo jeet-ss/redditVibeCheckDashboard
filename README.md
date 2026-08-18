@@ -53,3 +53,11 @@ streamlit run app.py
 ```
 
 The app will automatically open in your default web browser at `http://localhost:8501`.
+
+
+
+## Notes / Limitations
+
+- Sentiment is computed from post titles only, not full post text or comments.
+- Some subreddits may not return RSS results (or may be private / restricted).
+- The positivity/negativity thresholds (±0.05) are heuristic and can be tuned.
