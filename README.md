@@ -6,6 +6,15 @@ A simple Streamlit app that “checks the vibe” of a chosen subreddit by analy
 
 ## Features
 
+
+- **No API Key Needed**: Uses Reddit's public RSS feeds (`.rss`) to fetch content seamlessly.
+- **Preset & Custom Subreddits**: Quickly choose from popular subreddits or type in any custom community name.
+- **Real-Time Sentiment Analysis**: Utilizes the **VADER Sentiment Analysis** library tailored for social media text.
+- **Interactive Metrics**: Displays the overall community "vibe" (Positive 😊, Neutral 😐, or Negative 😠) along with a breakdown of post counts.
+- **Clean Data Presentation**: View the analyzed titles and their specific polarity scores in an interactive, searchable data table.
+
+## How to use
+
 - Select a subreddit (dropdown or custom input)
 - Fetch top 50 **Hot** posts from the subreddit RSS feed
 - Run sentiment analysis on each post title using VADER
