@@ -1,6 +1,6 @@
-# Subreddit Vibe Check Dashboard
+# Subreddit Vibe Check Dashboard 📊
 
-A simple Streamlit app that “checks the vibe” of a chosen subreddit by analyzing the sentiment of the top 50 **Hot** posts (via RSS). It uses VADER sentiment analysis on post **titles**.
+A simple Streamlit app that “checks the vibe” of a chosen subreddit by analyzing the sentiment of the top 50 **Hot** posts (via RSS). It uses VADER sentiment analysis on post's **titles**.
 
 ---
 
@@ -31,14 +31,25 @@ A simple Streamlit app that “checks the vibe” of a chosen subreddit by analy
 
 ---
 
-## Setup
+## Installation & Setup
 
-### Prerequisites
+Follow these steps to run the dashboard locally on your machine.
 
-- Python 3.9+ recommended
-- Internet access (needed to fetch Reddit RSS feeds)
+### 1. Clone or Download the Project
+Save the application script as `app.py` in your project directory.
 
-### Install dependencies
+### 2. Install Dependencies
+Make sure you have Python installed. Then, install the required packages using pip:
 
 ```bash
 pip install streamlit requests feedparser vaderSentiment
+```
+
+### 3. Run the Application
+Navigate to your project folder in your terminal and execute the following command:
+
+```bash
+streamlit run app.py
+```
+
+The app will automatically open in your default web browser at `http://localhost:8501`.
